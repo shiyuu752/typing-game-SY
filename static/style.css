@@ -80,6 +80,7 @@ input {
   justify-content: space-around;
   border: 2px solid #000;
   width: 80%;
+  min-width: 768px;
   padding: 2% 1%;
   margin: 0 auto;
 }
@@ -90,7 +91,7 @@ input {
 }
 
 #results  {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
