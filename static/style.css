@@ -3,15 +3,14 @@ html{
 }
 
 .background-image {
-    width: 100%;
-    height: 100%;
+    width: 118%;
+    height: 125%;
     object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
-    filter: invert(1);
-    opacity: 0.02;
+    z-index: -1  ;
+    /* filter: invert(1); */
 }
 body {
     background:linear-gradient(70deg, rgba(15, 155, 32, 0.4), rgba(255, 255, 255, 0.4));
@@ -121,13 +120,13 @@ input {
 }
 
 .untyped {
-    color: #000;
+    color: #ffffff;
     font-size: 1.35em;
     font-weight: bold;
 }
 
 .typed {
-    color: #ccc;
+    color: #464646;
     font-size: 1.2em;
 }
 
@@ -136,8 +135,8 @@ input {
 }
 
 .panel {
-    background: #6cf;
-    color: #222;
+    background: rgb(230, 255, 255);
+    color: #1b1b1b;
     border-radius: 50%;
     font-size: 1em;
     width: 100px;
@@ -157,12 +156,12 @@ input {
 
 
 .active {
-    background: #ffd700;
+    background: #a1e8ff;
     box-shadow: 0 0 14px #ffd700, 0 2px, 8px, #4448;
 }
 
 .active span:last-child{
-    color: #d33;
+    color: rgb(0, 162, 255);
 }
 
 .game__info {
